@@ -1,0 +1,23 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "description": "Javascript",
+  "main": "index.js",
+  "dependencies": {
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zales13/Chat.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zales13/Chat/issues"
+  },
+  "homepage": "https://github.com/Zales13/Chat#readme"
+}
