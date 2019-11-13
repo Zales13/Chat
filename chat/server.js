@@ -7,7 +7,7 @@ fs.readFile('./index.html', 'utf8', (err, data) => {
     }
     if (data) {
         const server = http.createServer((req, res) => {
-            console.log(req.url);
+            
             res.end(data);
         });
         const io = require('socket.io')(server);
@@ -21,6 +21,7 @@ fs.readFile('./index.html', 'utf8', (err, data) => {
                 io.emit('message', messages);
             });
         });
+
 
         server.listen(3000);
     }
